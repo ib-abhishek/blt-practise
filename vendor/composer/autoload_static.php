@@ -7,29 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
 {
     public static $files = array (
-        '92c8763cd6170fce6fcfe7e26b4e8c10' => __DIR__ . '/..' . '/symfony/phpunit-bridge/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-        '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        'cf97c57bfe0f23854afd2f3818abb7a0' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/create_uploaded_file.php',
-        '9bf37a3d0dad93e29cb4e1b1bfab04e9' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_headers_from_sapi.php',
-        'ce70dccb4bcc2efc6e94d2ee526e6972' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_method_from_sapi.php',
-        'f86420df471f14d568bfcb71e271b523' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_protocol_version_from_sapi.php',
-        'b87481e008a3700344428ae089e7f9e5' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/marshal_uri_from_sapi.php',
-        '0b0974a5566a1077e4f2e111341112c1' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_server.php',
-        '1ca3bc274755662169f9629d5412a1da' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_uploaded_files.php',
-        '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
-        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
-        '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
-        'fbeead2280a8f3911a1fe6dd034f7d5e' => __DIR__ . '/..' . '/mkalkbrenner/php-htmldiff-advanced/src/HtmlDiffAdvancedInterface.php',
-        '96f8d8288528d52059397cad6ec61f17' => __DIR__ . '/..' . '/mkalkbrenner/php-htmldiff-advanced/src/HtmlDiffAdvanced.php',
         '3a163f06e55e497e0acc65ba132a7a76' => __DIR__ . '/..' . '/sarciszewski/php-future/autoload.php',
         '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
@@ -40,10 +25,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
-        'j' => 
-        array (
-            'jarnaiz\\JUnitFormatter\\' => 23,
-        ),
         'g' => 
         array (
             'grasmash\\DrupalSecurityWarning\\' => 31,
@@ -51,15 +32,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'c' => 
         array (
             'cweagans\\Composer\\' => 18,
-        ),
-        'Z' => 
-        array (
-            'Zumba\\Mink\\Driver\\' => 18,
-            'Zumba\\GastonJS\\' => 15,
-            'Zend\\Stdlib\\' => 12,
-            'Zend\\Feed\\' => 10,
-            'Zend\\Escaper\\' => 13,
-            'Zend\\Diactoros\\' => 15,
         ),
         'X' => 
         array (
@@ -70,7 +42,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
             'Wikimedia\\Composer\\' => 19,
             'Webmozart\\PathUtil\\' => 19,
             'Webmozart\\Assert\\' => 17,
-            'WebSocket\\' => 10,
         ),
         'U' => 
         array (
@@ -79,46 +50,22 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'T' => 
         array (
             'Twig\\' => 5,
-            'TravisCarden\\BehatTableComparison\\' => 34,
             'Tivie\\OS\\' => 9,
-            'TYPO3\\PharStreamWrapper\\' => 24,
         ),
         'S' => 
         array (
-            'Symfony\\Polyfill\\Php70\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Polyfill\\Iconv\\' => 23,
             'Symfony\\Polyfill\\Ctype\\' => 23,
-            'Symfony\\Contracts\\' => 18,
             'Symfony\\Component\\Yaml\\' => 23,
-            'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
-            'Symfony\\Component\\Validator\\' => 28,
-            'Symfony\\Component\\Translation\\' => 30,
-            'Symfony\\Component\\Stopwatch\\' => 28,
-            'Symfony\\Component\\Serializer\\' => 29,
-            'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\Process\\' => 26,
-            'Symfony\\Component\\HttpKernel\\' => 29,
-            'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\Filesystem\\' => 29,
-            'Symfony\\Component\\ExpressionLanguage\\' => 37,
             'Symfony\\Component\\EventDispatcher\\' => 34,
-            'Symfony\\Component\\DomCrawler\\' => 29,
-            'Symfony\\Component\\DependencyInjection\\' => 38,
             'Symfony\\Component\\Debug\\' => 24,
-            'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
-            'Symfony\\Component\\ClassLoader\\' => 30,
-            'Symfony\\Component\\Cache\\' => 24,
-            'Symfony\\Component\\BrowserKit\\' => 29,
-            'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\Twig\\' => 20,
-            'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
-            'Symfony\\Bridge\\PhpUnit\\' => 23,
-            'SensioLabs\\DeprecationDetector\\' => 31,
         ),
         'R' => 
         array (
@@ -127,28 +74,18 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'P' => 
         array (
             'Psy\\' => 4,
-            'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
-            'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
-            'PhantomInstaller\\Test\\' => 22,
         ),
         'O' => 
         array (
             'OomphInc\\ComposerInstallersExtender\\' => 36,
         ),
-        'M' => 
-        array (
-            'Masterminds\\' => 12,
-        ),
         'L' => 
         array (
-            'League\\OAuth2\\Server\\' => 21,
-            'League\\Event\\' => 13,
             'League\\Container\\' => 17,
-            'Lcobucci\\JWT\\' => 13,
         ),
         'J' => 
         array (
@@ -167,32 +104,18 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
             'Grasmash\\YamlExpander\\' => 22,
             'Grasmash\\YamlCli\\' => 17,
             'Grasmash\\Expander\\' => 18,
-            'Goutte\\' => 7,
         ),
         'D' => 
         array (
             'Drush\\Internal\\' => 15,
             'Drush\\' => 6,
-            'Drupal\\Tests\\lightning_workflow\\' => 32,
-            'Drupal\\Tests\\lightning_media\\' => 29,
-            'Drupal\\Tests\\lightning_layout\\' => 30,
-            'Drupal\\Tests\\lightning_core\\' => 28,
-            'Drupal\\Tests\\lightning_api\\' => 27,
-            'Drupal\\Tests\\PHPUnit\\' => 21,
-            'Drupal\\Driver\\' => 14,
-            'Drupal\\Core\\' => 12,
-            'Drupal\\Component\\' => 17,
-            'DrupalComposer\\DrupalScaffold\\' => 30,
             'DrupalCodeGenerator\\' => 20,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
-            'Defuse\\Crypto\\' => 14,
             'DeepCopy\\' => 9,
             'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 55,
-            'DMore\\ChromeExtension\\' => 22,
-            'DMore\\ChromeDriver\\' => 19,
         ),
         'C' => 
         array (
@@ -204,21 +127,11 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
         ),
-        'B' => 
-        array (
-            'Behat\\Mink\\Driver\\' => 18,
-            'Behat\\Mink\\' => 11,
-        ),
         'A' => 
         array (
-            'Asm89\\Stack\\' => 12,
-            'Acquia\\Lightning\\' => 17,
-            'Acquia\\LightningExtension\\' => 26,
             'Acquia\\Hmac\\' => 12,
-            'Acquia\\DrupalSpecTool\\' => 22,
             'Acquia\\Blt\\Tests\\Robo\\' => 22,
             'Acquia\\Blt\\Tests\\' => 17,
-            'Acquia\\Blt\\Custom\\' => 18,
             'Acquia\\Blt\\' => 11,
             'AcquiaCloudApi\\Response\\' => 24,
             'AcquiaCloudApi\\CloudApi\\' => 24,
@@ -232,10 +145,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
-        'jarnaiz\\JUnitFormatter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jarnaiz/behat-junit-formatter/src',
-        ),
         'grasmash\\DrupalSecurityWarning\\' => 
         array (
             0 => __DIR__ . '/..' . '/grasmash/drupal-security-warning/src',
@@ -243,30 +152,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'cweagans\\Composer\\' => 
         array (
             0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
-        ),
-        'Zumba\\Mink\\Driver\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jcalderonzumba/mink-phantomjs-driver/src',
-        ),
-        'Zumba\\GastonJS\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jcalderonzumba/gastonjs/src',
-        ),
-        'Zend\\Stdlib\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
-        ),
-        'Zend\\Feed\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-feed/src',
-        ),
-        'Zend\\Escaper\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-escaper/src',
-        ),
-        'Zend\\Diactoros\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -284,10 +169,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'WebSocket\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/textalk/websocket/lib',
-        ),
         'Unish\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/tests',
@@ -296,81 +177,29 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
-        'TravisCarden\\BehatTableComparison\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/traviscarden/behat-table-comparison/src/BehatTableComparison',
-        ),
         'Tivie\\OS\\' => 
         array (
             0 => __DIR__ . '/..' . '/tivie/php-os-detector/src',
-        ),
-        'TYPO3\\PharStreamWrapper\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/typo3/phar-stream-wrapper/src',
-        ),
-        'Symfony\\Polyfill\\Php70\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php70',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Iconv\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-iconv',
-        ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
-        ),
-        'Symfony\\Contracts\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/contracts',
         ),
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
-        'Symfony\\Component\\VarExporter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/var-exporter',
-        ),
         'Symfony\\Component\\VarDumper\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
-        'Symfony\\Component\\Validator\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/validator',
-        ),
-        'Symfony\\Component\\Translation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/translation',
-        ),
-        'Symfony\\Component\\Stopwatch\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/stopwatch',
-        ),
-        'Symfony\\Component\\Serializer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/serializer',
-        ),
-        'Symfony\\Component\\Routing\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/routing',
-        ),
         'Symfony\\Component\\Process\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/process',
-        ),
-        'Symfony\\Component\\HttpKernel\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/http-kernel',
-        ),
-        'Symfony\\Component\\HttpFoundation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
         'Symfony\\Component\\Finder\\' => 
         array (
@@ -380,29 +209,13 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             0 => __DIR__ . '/..' . '/symfony/filesystem',
         ),
-        'Symfony\\Component\\ExpressionLanguage\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/expression-language',
-        ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
         ),
-        'Symfony\\Component\\DomCrawler\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/dom-crawler',
-        ),
-        'Symfony\\Component\\DependencyInjection\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/dependency-injection',
-        ),
         'Symfony\\Component\\Debug\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
-        ),
-        'Symfony\\Component\\CssSelector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
         'Symfony\\Component\\Console\\' => 
         array (
@@ -412,37 +225,9 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
-        'Symfony\\Component\\ClassLoader\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/class-loader',
-        ),
-        'Symfony\\Component\\Cache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/cache',
-        ),
-        'Symfony\\Component\\BrowserKit\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/browser-kit',
-        ),
-        'Symfony\\Cmf\\Component\\Routing\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony-cmf/routing',
-        ),
         'Symfony\\Bridge\\Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/twig-bridge',
-        ),
-        'Symfony\\Bridge\\PsrHttpMessage\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
-        ),
-        'Symfony\\Bridge\\PhpUnit\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/phpunit-bridge',
-        ),
-        'SensioLabs\\DeprecationDetector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/sensiolabs-de/deprecation-detector/src',
         ),
         'Robo\\' => 
         array (
@@ -451,10 +236,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
-        ),
-        'Psr\\SimpleCache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
         ),
         'Psr\\Log\\' => 
         array (
@@ -468,41 +249,17 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Psr\\Cache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/cache/src',
-        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
-        ),
-        'PhantomInstaller\\Test\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jakoch/phantomjs-installer/tests',
         ),
         'OomphInc\\ComposerInstallersExtender\\' => 
         array (
             0 => __DIR__ . '/..' . '/oomphinc/composer-installers-extender/src',
         ),
-        'Masterminds\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/masterminds/html5/src',
-        ),
-        'League\\OAuth2\\Server\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/league/oauth2-server/src',
-        ),
-        'League\\Event\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/league/event/src',
-        ),
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
-        ),
-        'Lcobucci\\JWT\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
         ),
         'JakubOnderka\\PhpConsoleHighlighter\\' => 
         array (
@@ -540,10 +297,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             0 => __DIR__ . '/..' . '/grasmash/expander/src',
         ),
-        'Goutte\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
-        ),
         'Drush\\Internal\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/internal-copy',
@@ -551,46 +304,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'Drush\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/src',
-        ),
-        'Drupal\\Tests\\lightning_workflow\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/modules/contrib/lightning_workflow/tests/src',
-        ),
-        'Drupal\\Tests\\lightning_media\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/modules/contrib/lightning_media/tests/src',
-        ),
-        'Drupal\\Tests\\lightning_layout\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/modules/contrib/lightning_layout/tests/src',
-        ),
-        'Drupal\\Tests\\lightning_core\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/modules/contrib/lightning_core/tests/src',
-        ),
-        'Drupal\\Tests\\lightning_api\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/modules/contrib/lightning_api/tests/src',
-        ),
-        'Drupal\\Tests\\PHPUnit\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/blt/tests/phpunit/src',
-        ),
-        'Drupal\\Driver\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/drivers/lib/Drupal/Driver',
-        ),
-        'Drupal\\Core\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Core',
-        ),
-        'Drupal\\Component\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Component',
-        ),
-        'DrupalComposer\\DrupalScaffold\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src',
         ),
         'DrupalCodeGenerator\\' => 
         array (
@@ -615,10 +328,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
             2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
             3 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
         ),
-        'Defuse\\Crypto\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
-        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
@@ -626,14 +335,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 
         array (
             0 => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src',
-        ),
-        'DMore\\ChromeExtension\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dmore/behat-chrome-extension/src',
-        ),
-        'DMore\\ChromeDriver\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dmore/chrome-mink-driver/src',
         ),
         'Consolidation\\SiteAlias\\' => 
         array (
@@ -663,35 +364,9 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
-        'Behat\\Mink\\Driver\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
-            1 => __DIR__ . '/..' . '/behat/mink-goutte-driver/src',
-            2 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
-        ),
-        'Behat\\Mink\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/behat/mink/src',
-        ),
-        'Asm89\\Stack\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack',
-        ),
-        'Acquia\\Lightning\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/profiles/contrib/lightning/src',
-        ),
-        'Acquia\\LightningExtension\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/docroot/profiles/contrib/lightning/src/LightningExtension',
-        ),
         'Acquia\\Hmac\\' => 
         array (
             0 => __DIR__ . '/..' . '/acquia/http-hmac-php/src',
-        ),
-        'Acquia\\DrupalSpecTool\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/acquia/drupal-spec-tool/src',
         ),
         'Acquia\\Blt\\Tests\\Robo\\' => 
         array (
@@ -700,10 +375,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'Acquia\\Blt\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/acquia/blt/tests/phpunit/src',
-        ),
-        'Acquia\\Blt\\Custom\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/blt/src',
         ),
         'Acquia\\Blt\\' => 
         array (
@@ -720,36 +391,11 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
     );
 
     public static $prefixesPsr0 = array (
-        'o' => 
-        array (
-            'org\\bovigo\\vfs\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/mikey179/vfsStream/src/main/php',
-            ),
-        ),
-        'W' => 
-        array (
-            'WebDriver' => 
-            array (
-                0 => __DIR__ . '/..' . '/instaclick/php-webdriver/lib',
-            ),
-        ),
         'T' => 
         array (
             'Twig_' => 
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
-            ),
-        ),
-        'S' => 
-        array (
-            'Stack' => 
-            array (
-                0 => __DIR__ . '/..' . '/stack/builder/src',
-            ),
-            'Solarium\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/solarium/solarium/library',
             ),
         ),
         'P' => 
@@ -758,58 +404,9 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
-            'PhantomInstaller\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/jakoch/phantomjs-installer/src',
-            ),
-        ),
-        'K' => 
-        array (
-            'KubAT\\PhpSimple\\HtmlDomParser' => 
-            array (
-                0 => __DIR__ . '/..' . '/kub-at/php-simple-html-dom-parser/src',
-            ),
-        ),
-        'H' => 
-        array (
-            'HTMLPurifier' => 
-            array (
-                0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
-            ),
-        ),
-        'E' => 
-        array (
-            'Egulias\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/egulias/email-validator/src',
-            ),
-            'EasyRdf_' => 
-            array (
-                0 => __DIR__ . '/..' . '/easyrdf/easyrdf/lib',
-            ),
         ),
         'D' => 
         array (
-            'Drupal\\Tests\\Driver' => 
-            array (
-                0 => __DIR__ . '/..' . '/drupal/drupal-driver/tests',
-            ),
-            'Drupal\\Exception' => 
-            array (
-                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
-            ),
-            'Drupal\\DrupalExtension' => 
-            array (
-                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
-            ),
-            'Drupal\\Drupal' => 
-            array (
-                0 => __DIR__ . '/..' . '/drupal/drupal-extension/src',
-            ),
-            'Drupal\\Driver' => 
-            array (
-                0 => __DIR__ . '/..' . '/drupal/drupal-driver/src',
-            ),
             'Drupal\\' => 
             array (
                 0 => __DIR__ . '/..' . '/drupal/coder/coder_sniffer/Drupal',
@@ -835,60 +432,10 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
                 0 => __DIR__ . '/..' . '/dflydev/dot-access-data/src',
             ),
         ),
-        'C' => 
-        array (
-            'Caxy\\HtmlDiff' => 
-            array (
-                0 => __DIR__ . '/..' . '/caxy/php-htmldiff/lib',
-            ),
-        ),
-        'B' => 
-        array (
-            'Bex\\Behat\\ScreenshotExtension\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/bex/behat-screenshot/src',
-            ),
-            'Behat\\Transliterator' => 
-            array (
-                0 => __DIR__ . '/..' . '/behat/transliterator/src',
-            ),
-            'Behat\\Testwork' => 
-            array (
-                0 => __DIR__ . '/..' . '/behat/behat/src',
-            ),
-            'Behat\\MinkExtension' => 
-            array (
-                0 => __DIR__ . '/..' . '/behat/mink-extension/src',
-            ),
-            'Behat\\Gherkin' => 
-            array (
-                0 => __DIR__ . '/..' . '/behat/gherkin/src',
-            ),
-            'Behat\\Behat' => 
-            array (
-                0 => __DIR__ . '/..' . '/behat/behat/src',
-            ),
-        ),
-    );
-
-    public static $fallbackDirsPsr0 = array (
-        0 => __DIR__ . '/..' . '/bex/behat-extension-driver-locator/src',
     );
 
     public static $classMap = array (
-        'Acquia\\LightningExtension\\Context\\AwaitTrait' => __DIR__ . '/../..' . '/docroot/modules/contrib/lightning_core/tests/contexts/AwaitTrait.inc',
-        'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
-        'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
-        'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
-        'Drupal' => __DIR__ . '/../..' . '/docroot/core/lib/Drupal.php',
         'DrupalFinder\\DrupalFinder' => __DIR__ . '/..' . '/webflo/drupal-finder/src/DrupalFinder.php',
-        'Drupal\\Component\\Utility\\Timer' => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Component/Utility/Timer.php',
-        'Drupal\\Component\\Utility\\Unicode' => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Component/Utility/Unicode.php',
-        'Drupal\\Core\\Database\\Database' => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Core/Database/Database.php',
-        'Drupal\\Core\\DrupalKernel' => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Core/DrupalKernel.php',
-        'Drupal\\Core\\DrupalKernelInterface' => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Core/DrupalKernelInterface.php',
-        'Drupal\\Core\\Site\\Settings' => __DIR__ . '/../..' . '/docroot/core/lib/Drupal/Core/Site/Settings.php',
-        'Error' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/Error.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
@@ -1264,7 +811,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
-        'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
         'PharIo\\Manifest\\Application' => __DIR__ . '/..' . '/phar-io/manifest/src/values/Application.php',
         'PharIo\\Manifest\\ApplicationName' => __DIR__ . '/..' . '/phar-io/manifest/src/values/ApplicationName.php',
         'PharIo\\Manifest\\Author' => __DIR__ . '/..' . '/phar-io/manifest/src/values/Author.php',
@@ -1423,7 +969,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
@@ -1433,8 +978,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
-        'TwitterAPIExchange' => __DIR__ . '/..' . '/j7mbo/twitter-api-php/TwitterAPIExchange.php',
-        'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -1443,7 +986,6 @@ class ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40
             $loader->prefixLengthsPsr4 = ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40::$fallbackDirsPsr0;
             $loader->classMap = ComposerStaticInitc48cb14fd339b88c2eab39bd577b0f40::$classMap;
 
         }, null, ClassLoader::class);
