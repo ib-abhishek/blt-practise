@@ -89,7 +89,7 @@ git:
   # executable file named after the hook. Changing a hook value to 'false' will disable it.
   # You should execute `blt blt:init:git-hooks` after modifying these values.
   hooks:
-    pre-commit: ${blt.root}/scripts/git-hooks
+    pre-commit: false  #${blt.root}/scripts/git-hooks
     commit-msg: false  #${blt.root}/scripts/git-hooks
   commit-msg:
     # Commit messages must conform to this pattern.
